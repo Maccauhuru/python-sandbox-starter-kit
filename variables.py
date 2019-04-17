@@ -13,3 +13,44 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+print("---------------------------")
+print("ASSIGNMENT AND PRINT")
+print("---------------------------")
+
+
+v = 12
+v + 10
+print(v)
+
+
+print("---------------------------")
+print("SINGLE ASSIGNMENTS")
+print("---------------------------")
+
+fl = 3.34  # float
+name = "Simba"  # str
+isRich = False  # bool
+print(fl, name, isRich)
+
+print("---------------------------")
+print("MULTIPLE ASSIGNMENTS")
+print("---------------------------")
+
+fl, name, isRich = (3.3455, "Michael", True)
+print(fl, name, isRich)
+
+print("---------------------------")
+print("FIND DATA TYPE")
+print("---------------------------")
+
+print(type(name))  # check type
+print(type(isRich))  # check type
+
+print("---------------------------")
+print("TYPE CASTING")
+print("---------------------------")
+print("So its " + str(isRich) + " that " + name + " is rich?")
+num = float(3) + 12
+print(num)
+print(type(num))
+print(int(num))
